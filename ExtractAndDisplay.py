@@ -58,14 +58,14 @@ def displayFrames(inputBuffer):
     cv2.destroyAllWindows()
 
 # filename of clip to load
-filename = 'clip.mp4'
+#filename = 'clip.mp4'
 
 # shared queue  
-extractionQueue = queue.Queue()
+#extractionQueue = queue.Queue()
 
 # extract the frames
-extractFrames(filename,extractionQueue, 72)
+#extractFrames(filename,extractionQueue, 72)
 
 # display the frames
-displayFrames(extractionQueue)
+#displayFrames(extractionQueue)
 
